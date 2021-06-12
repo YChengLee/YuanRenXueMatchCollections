@@ -11,6 +11,17 @@
   <span><a href="https://github.com/YChengLee/YuanRenXueMatchCollections/tree/main/Match12">代码跳转</a></span>
 </p>
 
+### 第13题 入门级Cookie
+<p>
+    用session保持会话，请求一次match13页面，第一次返回的源码里带有yuanrenxue_cookie，正则取出手动放入session里，请求api即可返回正确数据。
+</p>
+<p>
+  <span><a href="http://match.yuanrenxue.com/match/13">题目跳转</a></span>
+  <span>/</span>
+  <span><a href="https://github.com/YChengLee/YuanRenXueMatchCollections/tree/main/Match13">代码跳转</a></span>
+</p>
+
+
 ### Tips
 <div>
 <p>
