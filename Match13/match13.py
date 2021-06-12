@@ -34,6 +34,5 @@ def main():
         result += sum([i.get("value") for i in response.json().get("data")])
     print(result)
 
-
 if __name__ == '__main__':
     main()
