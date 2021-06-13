@@ -5,7 +5,7 @@
 # @File           : match12.py
 # @Software       : PyCharm 2019.3
 # @UpdateTime     : 
-# @Describe       : 猿人学题12-入门级JS
+# @Describe       : 猿人学题12 入门级JS
 
 import base64
 

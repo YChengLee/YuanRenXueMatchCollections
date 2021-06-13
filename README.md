@@ -21,6 +21,25 @@
   <span><a href="https://github.com/YChengLee/YuanRenXueMatchCollections/tree/main/Match13">代码跳转</a></span>
 </p>
 
+### 第15题 备周则意怠-常见则不疑
+<div>
+    <p>抓包，发现请求需要参数m值，看调用栈，发现m值由3个字段用‘|’拼接生成。</p>
+    <ul>
+        <li>1.时间戳整除2</li>
+        <li>2.时间戳整除2 再减去一个随机数(直接减个固定值即可）</li>
+        <li>3.拿上面两个参数用一个不知名的加密搞出个新值。</li>
+    </ul>
+    <p>这个不知名参数是啥玩意呢？</p>
+    <p>分析源码可以发现调用了一个wasm.main的文件，我就去搜了一波！</p>
+    <p><a href="https://zhuanlan.zhihu.com/p/338265761">啥是wasm?</a>我个人理解为算是一个能够被浏览器编译的一个插件。</p>
+    <p>源码中调用了这个插件的encode方法，舒服的是python也有执行这类代码的第三方库<a href="https://pypi.org/project/pywasm/">pywasm</a>。</p>
+    <p>所以直接可以生成参数m,然后请求接口返回正确的值了。</p>
+</div>
+<p>
+  <span><a href="http://match.yuanrenxue.com/match/15">题目跳转</a></span>
+  <span>/</span>
+  <span><a href="https://github.com/YChengLee/YuanRenXueMatchCollections/tree/main/Match15">代码跳转</a></span>
+</p>
 
 ### Tips
 <div>
