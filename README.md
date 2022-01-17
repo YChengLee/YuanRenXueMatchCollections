@@ -41,6 +41,16 @@
   <span><a href="https://github.com/YChengLee/YuanRenXueMatchCollections/tree/main/Match15">代码跳转</a></span>
 </p>
 
+### 第16题 webpack初体验
+<p>
+    抓包看调用栈，js源码被打包了进行了混淆，但是不影响寻找，分析出m值是把时间戳进行一个btoa（里面还有个魔改md5),但是这个btoa显然被魔改了，所以直接扣代码。
+</p>
+<p>
+  <span><a href="http://match.yuanrenxue.com/match/16">题目跳转</a></span>
+  <span>/</span>
+  <span><a href="https://github.com/YChengLee/YuanRenXueMatchCollections/tree/main/Match16">代码跳转</a></span>
+</p>
+
 ### Tips
 <div>
 <p>
